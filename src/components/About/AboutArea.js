@@ -11,7 +11,7 @@ const AboutArea = () => {
                         <span className="about__sub-title">About WebCloudor</span>
                         <h3 className="about__title">We are enabling <br/> Everyone to create for the website.</h3>
                         <div className="about__thumb w-img wow fadeInUp" data-wow-delay=".3s">
-                           <img src="assets/img/about/about-1.jpg" alt=""/>
+                           <img src="/assets/img/about/about-1.jpg" alt=""/>
                         </div>
                         <div className="about__count pt-50 pb-15 wow fadeInUp" data-wow-delay=".5s">
                            <div className="row">

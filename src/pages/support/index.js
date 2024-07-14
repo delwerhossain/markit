@@ -15,7 +15,7 @@ const Support = () => {
       <Header/>
          {/*  bg shape area start  */}
          <div className="bg-shape">
-            <img src="assets/img/shape/shape-1.png" alt=""/>
+            <img src="/assets/img/shape/shape-1.png" alt=""/>
          </div>
          {/* bg shape area end  */}
          <SupportArea/>

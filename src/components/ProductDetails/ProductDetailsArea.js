@@ -123,7 +123,7 @@ const ProductDetailsArea = () => {
                                              <div className="comments-box grey-bg-2">
                                                 <div className="comments-info d-flex">
                                                    <div className="comments-avatar mr-15">
-                                                      <img src="assets/img/product/support/sup-1.jpg" alt="" />
+                                                      <img src="/assets/img/product/support/sup-1.jpg" alt="" />
                                                    </div>
                                                    <div className="avatar-name">
                                                       <h5>Jason Response</h5>
@@ -139,7 +139,7 @@ const ProductDetailsArea = () => {
                                              <div className="comments-box grey-bg-2">
                                                 <div className="comments-info d-flex">
                                                    <div className="comments-avatar mr-15">
-                                                      <img src="assets/img/product/support/sup-2.jpg" alt="" />
+                                                      <img src="/assets/img/product/support/sup-2.jpg" alt="" />
                                                    </div>
                                                    <div className="avatar-name">
                                                       <h5>Hilary Ouse</h5>
@@ -188,7 +188,7 @@ const ProductDetailsArea = () => {
                            <div className="product__prorietor-info mb-20 d-flex justify-content-between">
                               <div className="product__proprietor-avater d-flex align-items-center">
                                  <div className="product__proprietor-thumb">
-                                    <img src="assets/img/product/proprietor/proprietor-1.jpg" alt="" />
+                                    <img src="/assets/img/product/proprietor/proprietor-1.jpg" alt="" />
                                  </div>
                                  <div className="product__proprietor-name">
                                     <h5><a href="#">Justin Case</a></h5>

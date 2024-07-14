@@ -5,31 +5,31 @@ const TamplatesNeed = () => {
    const tamplateData = [
       {
          id: 1,
-         icon_img: "assets/img/icon/services/services-1.svg",
+         icon_img: "/assets/img/icon/services/services-1.svg",
          bg_color: 'blue-bg-4',
          title: <h3 className="services__title"><a href="#">No Risk, <br /> Double Guarantee</a></h3>
       },
       {
          id: 2,
-         icon_img: "assets/img/icon/services/services-2.svg",
+         icon_img: "/assets/img/icon/services/services-2.svg",
          bg_color: 'pink-bg',
          title: <h3 className="services__title"><Link href="/about"><a >Flexible <br /> Prices no Surprises</a></Link></h3>
       },
       {
          id: 3,
-         icon_img: "assets/img/icon/services/services-3.svg",
+         icon_img: "/assets/img/icon/services/services-3.svg",
          bg_color: 'green-bg',
          title: <h3 className="services__title"><Link href="/about"><a >Graphic <br /> Design Services</a></Link></h3>
       },
       {
          id: 4,
-         icon_img: "assets/img/icon/services/services-4.svg",
+         icon_img: "/assets/img/icon/services/services-4.svg",
          bg_color: 'orange-bg',
          title: <h3 className="services__title"><Link href="/about"><a >Updates <br /> Constant Development</a></Link></h3>
       },
       {
          id: 5,
-         icon_img: "assets/img/icon/services/services-5.svg",
+         icon_img: "/assets/img/icon/services/services-5.svg",
          bg_color: 'blue-bg',
          title: <h3 className="services__title"><Link href="/about"><a >Friendly <br />Customer Support</a></Link></h3>
       },

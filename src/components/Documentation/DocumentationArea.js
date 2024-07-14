@@ -58,7 +58,7 @@ const DocumentationArea = () => {
                         return <div key={index} className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                            <div className={`documentation__item ${item.bgClass} mb-30 transition-3 text-center`}>
                               <div className="documentation__icon mb-30">
-                                 <img src="assets/img/icon/documentation/shop-bag.png" alt="" />
+                                 <img src="/assets/img/icon/documentation/shop-bag.png" alt="" />
                               </div>
                               <div className="documentation__content">
                                  <h3 className="documentation__title">
@@ -77,10 +77,10 @@ const DocumentationArea = () => {
                   <div className="col-xxl-12">
                      <div className="support__thumb text-center mt-40">
                         <a href="#">
-                           <img src="assets/img/support/profile/s-p-1.jpg" alt="" />
-                           <img src="assets/img/support/profile/s-p-2.jpg" alt="" />
-                           <img src="assets/img/support/profile/s-p-3.jpg" alt="" />
-                           <img src="assets/img/support/profile/s-p-4.jpg" alt="" />
+                           <img src="/assets/img/support/profile/s-p-1.jpg" alt="" />
+                           <img src="/assets/img/support/profile/s-p-2.jpg" alt="" />
+                           <img src="/assets/img/support/profile/s-p-3.jpg" alt="" />
+                           <img src="/assets/img/support/profile/s-p-4.jpg" alt="" />
                         </a>
                         <p>Contact us directly at <a href="mailto:support@webcloudor.com">support@webcloudor.com</a> </p>
                      </div>

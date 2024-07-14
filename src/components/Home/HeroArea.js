@@ -5,32 +5,32 @@ const HeroArea = () => {
         <div className="hero__shape">
           <img
             className="circle"
-            src="assets/img/icon/hero/hero-circle.png"
+            src="/assets/img/icon/hero/hero-circle.png"
             alt="circle"
           />
           <img
             className="circle-2"
-            src="assets/img/icon/hero/hero-circle-2.png"
+            src="/assets/img/icon/hero/hero-circle-2.png"
             alt="circle"
           />
           <img
             className="square"
-            src="assets/img/icon/hero/hero-square.png"
+            src="/assets/img/icon/hero/hero-square.png"
             alt="circle"
           />
           <img
             className="square-2"
-            src="assets/img/icon/hero/hero-square-2.png"
+            src="/assets/img/icon/hero/hero-square-2.png"
             alt="circle"
           />
           <img
             className="dot"
-            src="assets/img/icon/hero/hero-dot.png"
+            src="/assets/img/icon/hero/hero-dot.png"
             alt="circle"
           />
           <img
             className="triangle"
-            src="assets/img/icon/hero/hero-triangle.png"
+            src="/assets/img/icon/hero/hero-triangle.png"
             alt="circle"
           />
         </div>
@@ -67,7 +67,7 @@ const HeroArea = () => {
                   <img
                     className="layer"
                     data-depth="0.2"
-                    src="assets/img/hero/hero-1.jpg"
+                    src="/assets/img/hero/hero-1.jpg"
                     alt=""
                   />
                 </div>
@@ -75,7 +75,7 @@ const HeroArea = () => {
                   <img
                     className="layer"
                     data-depth="0.3"
-                    src="assets/img/hero/hero-2.jpg"
+                    src="/assets/img/hero/hero-2.jpg"
                     alt=""
                   />
                 </div>
@@ -83,7 +83,7 @@ const HeroArea = () => {
                   <img
                     className="layer"
                     data-depth="0.4"
-                    src="assets/img/hero/hero-3.jpg"
+                    src="/assets/img/hero/hero-3.jpg"
                     alt=""
                   />
                 </div>

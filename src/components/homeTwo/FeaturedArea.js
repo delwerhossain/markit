@@ -23,7 +23,7 @@ const FeaturedArea = () => {
                         <div className="featured__thumb w-img">
                            <Link href="/product">
                               <a >
-                                 <img src="assets/img/product/theme/theme-1.jpg" alt="" />
+                                 <img src="/assets/img/product/theme/theme-1.jpg" alt="" />
                               </a>
                            </Link>
                         </div>
@@ -37,7 +37,7 @@ const FeaturedArea = () => {
                         <div className="featured__thumb w-img">
                            <Link href="/product">
                               <a >
-                                 <img src="assets/img/product/theme/theme-2.jpg" alt="" />
+                                 <img src="/assets/img/product/theme/theme-2.jpg" alt="" />
                               </a>
                            </Link>
                         </div>

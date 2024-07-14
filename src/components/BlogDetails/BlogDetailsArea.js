@@ -80,7 +80,7 @@ const BlogDetailsArea = () => {
                            </blockquote>
                         </div>
                         <div className="postbox__thumb postbox__thumb-2 fix w-img mb-30">
-                           <img src="assets/img/blog/blog-2.jpg" alt="" />
+                           <img src="/assets/img/blog/blog-2.jpg" alt="" />
                         </div>
                         <div className="postbox__details mb-30">
                            <p>Owt to do with me chap the little rotter cras starkers bugger all mate bleeder horse play David he nicked it, James Bond smashing mufty bonnet haggle Oxford knackered fanny around bog a, boot cuppa blower I dont want no agro Eaton lost the plot sloshed ummm Iam telling. Hanky panky Harry burke butty Charles amongst tosser you mug, <span className="highlight">
@@ -117,7 +117,7 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="postbox__author-3 d-sm-flex grey-bg-2 mb-85">
                            <div className="postbox__author-thumb-3 mr-20">
-                              <img src="assets/img/blog/author/blog-author-5.jpg" alt="" />
+                              <img src="/assets/img/blog/author/blog-author-5.jpg" alt="" />
                            </div>
                            <div className="postbox__author-content">
                               <h4>Justin Case</h4>
@@ -176,7 +176,7 @@ const BlogDetailsArea = () => {
                                  <div className="comments-box grey-bg-2">
                                     <div className="comments-info d-flex">
                                        <div className="comments-avatar mr-15">
-                                          <img src="assets/img/product/support/sup-1.jpg" alt="" />
+                                          <img src="/assets/img/product/support/sup-1.jpg" alt="" />
                                        </div>
                                        <div className="avatar-name">
                                           <h5>Jason Response</h5>
@@ -195,7 +195,7 @@ const BlogDetailsArea = () => {
                                  <div className="comments-box grey-bg-2">
                                     <div className="comments-info d-flex">
                                        <div className="comments-avatar mr-15">
-                                          <img src="assets/img/product/support/sup-2.jpg" alt="" />
+                                          <img src="/assets/img/product/support/sup-2.jpg" alt="" />
                                        </div>
                                        <div className="avatar-name">
                                           <h5>Hilary Ouse</h5>
@@ -214,9 +214,9 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="comment__wrapper p-relative white-bg">
                            <div className="comment__shape">
-                              <img className="circle" src="assets/img/icon/sign/circle.png" alt="" />
-                              <img className="zigzag" src="assets/img/icon/sign/zigzag.png" alt="" />
-                              <img className="dot" src="assets/img/icon/sign/dot.png" alt="" />
+                              <img className="circle" src="/assets/img/icon/sign/circle.png" alt="" />
+                              <img className="zigzag" src="/assets/img/icon/sign/zigzag.png" alt="" />
+                              <img className="dot" src="/assets/img/icon/sign/dot.png" alt="" />
                            </div>
                            <h3>Post a comment</h3>
                            <p>{"Jolly good bevvy butty it's all gone to pot that quaint so I said cheers."}</p>

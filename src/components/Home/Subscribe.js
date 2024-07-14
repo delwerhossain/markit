@@ -5,11 +5,11 @@ const Subscribe = () => {
       <>
          <section className="subscribe__area p-relative pt-100 pb-110" style={{background:`url(assets/img/bg/subscribe-bg.jpg)`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
             <div className="subscribe__icon">
-               <img className="ps" src="assets/img/icon/subscribe/ps.png" alt="" />
-               <img className="wp" src="assets/img/icon/subscribe/wp.png" alt="" />
-               <img className="html" src="assets/img/icon/subscribe/html.png" alt="" />
-               <img className="f" src="assets/img/icon/subscribe/f.png" alt="" />
-               <img className="man" src="assets/img/icon/subscribe/man.png" alt="" />
+               <img className="ps" src="/assets/img/icon/subscribe/ps.png" alt="" />
+               <img className="wp" src="/assets/img/icon/subscribe/wp.png" alt="" />
+               <img className="html" src="/assets/img/icon/subscribe/html.png" alt="" />
+               <img className="f" src="/assets/img/icon/subscribe/f.png" alt="" />
+               <img className="man" src="/assets/img/icon/subscribe/man.png" alt="" />
             </div>
             <div className="container">
                <div className="row">

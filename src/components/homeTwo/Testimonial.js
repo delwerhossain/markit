@@ -69,7 +69,7 @@ const Testimonial = () => {
                   <div className="col-xxl-12">
                      <div className="testimonial__wrapper p-relative pb-135 wow fadeInUp" data-wow-delay=".5s">
                         <div className="testimonial__shape">
-                           <img src="assets/img/testimonial/testimonial-shape.png" alt="" />
+                           <img src="/assets/img/testimonial/testimonial-shape.png" alt="" />
                         </div>
 
                         <Slider {...settings} className="testimonial__slider-2">

@@ -23,7 +23,7 @@ const SupportArea = () => {
       <>
          <section className="support__area po-rel-z1 pt-100 pb-100">
             <div className="support__shape wow fadeInLeft" data-wow-delay=".9s">
-               <img src="assets/img/bg/support-bg.png" alt=""/>
+               <img src="/assets/img/bg/support-bg.png" alt=""/>
             </div>
             <div className="container">
                <div className="row">
@@ -58,10 +58,10 @@ const SupportArea = () => {
                   <div className="col-xxl-12">
                      <div className="support__thumb text-center mt-40">
                         <a href="#">
-                           <img src="assets/img/support/profile/s-p-1.jpg" alt=""/>
-                           <img src="assets/img/support/profile/s-p-2.jpg" alt=""/>
-                           <img src="assets/img/support/profile/s-p-3.jpg" alt=""/>
-                           <img src="assets/img/support/profile/s-p-4.jpg" alt=""/>
+                           <img src="/assets/img/support/profile/s-p-1.jpg" alt=""/>
+                           <img src="/assets/img/support/profile/s-p-2.jpg" alt=""/>
+                           <img src="/assets/img/support/profile/s-p-3.jpg" alt=""/>
+                           <img src="/assets/img/support/profile/s-p-4.jpg" alt=""/>
                         </a>
                         <p>Contact us directly at <a href="mailto:support@webcloudor.com">support@webcloudor.com</a> </p>
                      </div>

@@ -19,7 +19,7 @@ const SingleProduct = ({ product }) => {
                <div className={`product__thumb-2 ${product?.gradientColor} p-relative text-center fix`}>
                   <img className="product-icon" src={"/" + product?.img} alt="" />
                   <div className="product__thumb-2-shape">
-                     <img src="assets/img/product/icon/product-circle.png" alt="" />
+                     <img src="/assets/img/product/icon/product-circle.png" alt="" />
                   </div>
                </div>
                <div className="product__content-2 text-center">

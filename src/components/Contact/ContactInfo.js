@@ -25,7 +25,7 @@ const ContactInfo = () => {
       <>
          <section className="contact__info pt-20 pb-120">
             <div className="contact__info-shape">
-               <img src="assets/img/icon/contact/contact-bg.png" alt="" />
+               <img src="/assets/img/icon/contact/contact-bg.png" alt="" />
             </div>
             <div className="container">
                <div className="row">
