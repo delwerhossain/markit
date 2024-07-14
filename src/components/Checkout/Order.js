@@ -40,11 +40,11 @@ const Order = () => {
                      <tfoot >
                         <tr className="order-total">
                            <th>Subtotal</th>
-                           <td className='text-center'><strong ><span className="amount">${total}</span></strong></td>
+                           <td className='text-center'><strong ><span className="amount">৳{total}</span></strong></td>
                         </tr>
                         <tr className="order-total">
                           <th>Total</th>
-                           <td className='text-center'><strong><span className="amount">${total}</span></strong></td>
+                           <td className='text-center'><strong><span className="amount">৳{total}</span></strong></td>
                         </tr>
                      </tfoot>
 

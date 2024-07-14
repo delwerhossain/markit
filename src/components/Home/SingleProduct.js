@@ -38,7 +38,7 @@ const SingleProduct = ({ product }) => {
                         <a href="#">{category}</a>
                      </div>
                      <div className="product__price">
-                        <span>{`$${price}`}</span>
+                        <span>{`৳${price}`}</span>
                      </div>
                   </div>
                   <h3 onClick={handleDetailsProduct} className="product__title">

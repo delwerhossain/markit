@@ -138,8 +138,8 @@ const ProductCart = () => {
                               <div className="cart-page-total">
                                  <h2>Cart totals</h2>
                                  <ul className="mb-20">
-                                    <li>Subtotal <span>${total}</span></li>
-                                    <li>Total <span>${total}</span></li>
+                                    <li>Subtotal <span>৳{total}</span></li>
+                                    <li>Total <span>৳{total}</span></li>
                                  </ul>
                                  <Link href="/checkout">
                                     <a className="m-btn m-btn-border-2 cta__btn active">Proceed to checkout</a>

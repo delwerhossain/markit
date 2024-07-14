@@ -52,7 +52,7 @@ const TrendingLandmark = () => {
                                        <a href="#">{trending.category}</a>
                                     </div>
                                     <div className="trending__price">
-                                       <span>{`$${trending.price}`}</span>
+                                       <span>{`৳${trending.price}`}</span>
                                     </div>
                                  </div>
                               </div>
