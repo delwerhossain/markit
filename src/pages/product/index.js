@@ -160,7 +160,7 @@ const Product = () => {
                       <div className="product__item white-bg mb-30 wow fadeInUp" data-wow-delay=".3s">
                         <div className="product__thumb">
                           <div className="product__thumb-inner fix w-img">
-                            <Link href="/product-details">
+                          <Link href={`/product-details/${item.id}`}>
                               <a >
                                 <img src={item?.img_big} alt="" />
                               </a>
@@ -183,11 +183,11 @@ const Product = () => {
                               <a href="#">{item?.category}</a>
                             </div>
                             <div className="product__price">
-                              <span>${item?.price}</span>
+                              <span>৳{item?.price}</span>
                             </div>
                           </div>
                           <h3 onClick={() => handleProducDetails(item.id)} className="product__title">
-                            <Link href="/product-details">
+                          <Link href={`/product-details/${item.id}`}>
                               <a >{item?.title}...</a>
                             </Link>
                           </h3>

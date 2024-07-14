@@ -2,16 +2,14 @@ import Link from 'next/link';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { addToProduct } from '../../redux/features/productSlice';
+import Image from 'next/image';
 
-const ProductDetailsArea = () => {
-   // all products
-   const product = useSelector(state => state.products.specificProduct);
-   // dispatch
-   const dispatch = useDispatch();
-   // handleCartProduct
-   const handleCartProduct = () => {
-      dispatch(addToProduct(product))
-   }
+const ProductDetailsArea = ({ product }) => {
+  const dispatch = useDispatch();
+
+  const handleCartProduct = () => {
+    dispatch(addToProduct(product));
+  };
    return (
 
       <section className="product__area pb-115">
@@ -20,7 +18,7 @@ const ProductDetailsArea = () => {
                <div className="col-xxl-8 col-xl-8 col-lg-8">
                   <div className="product__wrapper">
                      <div className="product__details-thumb w-img mb-30">
-                        <img src={product?.img_big} alt="product-details" />
+                        <Image width={1000} height={700} src={product?.img_big} alt="product-details" />
                      </div>
                      <div className="product__details-content">
                         <div className="product__tab mb-40">
@@ -123,7 +121,7 @@ const ProductDetailsArea = () => {
                                              <div className="comments-box grey-bg-2">
                                                 <div className="comments-info d-flex">
                                                    <div className="comments-avatar mr-15">
-                                                      <img src="/assets/img/product/support/sup-1.jpg" alt="" />
+                                                      <Image width={40} height={40} src="/assets/img/product/support/sup-1.jpg" alt="" />
                                                    </div>
                                                    <div className="avatar-name">
                                                       <h5>Jason Response</h5>
@@ -139,7 +137,7 @@ const ProductDetailsArea = () => {
                                              <div className="comments-box grey-bg-2">
                                                 <div className="comments-info d-flex">
                                                    <div className="comments-avatar mr-15">
-                                                      <img src="/assets/img/product/support/sup-2.jpg" alt="" />
+                                                   <Image width={40} height={40} src="/assets/img/product/support/sup-2.jpg" alt="" />
                                                    </div>
                                                    <div className="avatar-name">
                                                       <h5>Hilary Ouse</h5>
@@ -188,7 +186,7 @@ const ProductDetailsArea = () => {
                            <div className="product__prorietor-info mb-20 d-flex justify-content-between">
                               <div className="product__proprietor-avater d-flex align-items-center">
                                  <div className="product__proprietor-thumb">
-                                    <img src="/assets/img/product/proprietor/proprietor-1.jpg" alt="" />
+                                 <Image width={40} height={40} src="/assets/img/product/proprietor/proprietor-1.jpg" alt="" />
                                  </div>
                                  <div className="product__proprietor-name">
                                     <h5><a href="#">Justin Case</a></h5>
@@ -233,7 +231,7 @@ const ProductDetailsArea = () => {
                            <a href="https://themeforest.net/item/zibber-business-consulting-wordpress-theme/30120392" rel="noreferrer" target="_blank" className="m-btn m-btn-border w-100"> <span></span> Preview Project</a>
                         </div>
                      </div>
-                     <div className="sidebar__banner" style={{ background: `url(assets/img/banner/sidebar-banner.jpg)`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
+                     <div className="sidebar__banner" style={{ background: `url(/assets/img/banner/sidebar-banner.jpg)`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
                         <h4 className="sidebar__banner-title">Check Out <br />Our free Templates</h4>
                         <Link href="/product">
                            <a className="m-btn m-btn-white"> <span></span> free template</a>

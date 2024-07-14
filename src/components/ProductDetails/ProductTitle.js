@@ -2,8 +2,7 @@ import Link from 'next/link';
 
 import { useSelector } from 'react-redux';
 
-const ProductTitle = () => {
-   const product = useSelector(state => state.products.specificProduct);
+const ProductTitle = ({ product }) => {
     return (
    
         <section className="page__title-area  pt-85">
