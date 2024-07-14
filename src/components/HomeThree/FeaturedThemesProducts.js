@@ -64,7 +64,7 @@ const FeaturedThemesProducts = () => {
                                        <a onClick={() => handleProductDetails(product.id)}>{product.title}</a>
                                     </Link>
                                  </h3>
-                                 <p className="product__author">by <a href="#">Theme Pure</a> in <a href="#">Templates</a></p>
+                                 <p className="product__author">by <a href="#">WebCloudor</a> in <a href="#">Templates</a></p>
                                  <div className="product__ratings">
                                     <i className="fas fa-star"></i>
                                     <i className="fas fa-star"></i>

@@ -46,7 +46,7 @@ const SingleProduct = ({ product }) => {
                         <a >{title}..</a>
                      </Link>
                   </h3>
-                  <p className="product__author">by <a href="#">Theme Pure</a> in <a href="#">Templates</a></p>
+                  <p className="product__author">by <a href="#">WebCloudor</a> in <a href="#">Templates</a></p>
                </div>
             </div>
          </div>

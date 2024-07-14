@@ -92,7 +92,7 @@ const Footer = () => {
                         <div className="row">
                            <div className="col-xxl-6 col-xl-6 col-md-6">
                               <div className="footer__copyright footer__copyright-2 wow fadeInUp" data-wow-delay=".5s">
-                                 <p>Copyright © 2022 All Rights Reserved, Design by <a href="#">Theme Pure</a></p>
+                                 <p>Copyright © 2022 All Rights Reserved, Design by <a href="#">WebCloudor</a></p>
                               </div>
                            </div>
                            <div className="col-xxl-6 col-xl-6 col-md-6">
