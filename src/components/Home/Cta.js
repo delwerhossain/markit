@@ -9,7 +9,7 @@ const Cta = () => {
                   <div className="col-xxl-6 offset-xxl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                      <div className="section__title-wrapper text-center mb-45">
                         <h2 className="section__title wow fadeInUp" data-wow-delay=".3s">Grow Your Revenue <span>Today</span></h2>
-                        <p className="wow fadeInUp" data-wow-delay=".5s">Thousands of Markit Brands have made the swich.Text marketing with the customer in mind!</p>
+                        <p className="wow fadeInUp" data-wow-delay=".5s">Thousands of WebCloudor Brands have made the swich.Text marketing with the customer in mind!</p>
                      </div>
                   </div>
                </div>

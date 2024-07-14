@@ -22,7 +22,7 @@ const Subscribe = () => {
                               <input type="email" placeholder="Email Address" />
                               <button type="submit" className="m-btn m-btn-black"><span></span> subscribe </button>
                            </form>
-                           <p>Join 20,000+ other creators in our Markit community.</p>
+                           <p>Join 20,000+ other creators in our WebCloudor community.</p>
                         </div>
                      </div>
                   </div>

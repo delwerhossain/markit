@@ -18,7 +18,7 @@ const FeaturedArea = () => {
                   <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                      <div className="featured__item grey-bg-17 mb-30 wow fadeInUp" data-wow-delay=".3s">
                         <h3 className="featured__title"><Link href="/product"><a >WordPress Themes</a></Link></h3>
-                        <p>Thousands of Markit Brands have made the swich.Text marketing with the customer in mind!</p>
+                        <p>Thousands of WebCloudor Brands have made the swich.Text marketing with the customer in mind!</p>
 
                         <div className="featured__thumb w-img">
                            <Link href="/product">
@@ -32,7 +32,7 @@ const FeaturedArea = () => {
                   <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                      <div className="featured__item grey-bg-18 mb-30 wow fadeInUp" data-wow-delay=".5s">
                         <h3 className="featured__title"><Link href="/product"><a>WordPress Plugins</a></Link></h3>
-                        <p>Thousands of Markit Brands have made the swich.Text marketing with the customer in mind!</p>
+                        <p>Thousands of WebCloudor Brands have made the swich.Text marketing with the customer in mind!</p>
 
                         <div className="featured__thumb w-img">
                            <Link href="/product">

@@ -96,7 +96,7 @@ const SignUp = () => {
                               </div>
                               <button type='submit' className="m-btn m-btn-4 w-100"> <span></span> Sign Up</button>
                               <div className="sign__new text-center mt-20">
-                                 <p>Already in Markit ? <Link href="login"><a > Sign In</a></Link></p>
+                                 <p>Already in WebCloudor ? <Link href="login"><a > Sign In</a></Link></p>
                               </div>
                            </form>
                         </div>

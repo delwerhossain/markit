@@ -1,5 +1,5 @@
 {
-  "name": "markit",
+  "name": "webcloudor",
   "private": true,
   "scripts": {
     "dev": "next dev",

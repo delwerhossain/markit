@@ -10,7 +10,7 @@ const PricingArea = () => {
                   <div className="col-xxl-8 offset-xxl-2 col-xl-8 offset-xl-2">
                      <div className="page__title-wrapper text-center mb-50">
                         <h2 className="page__title-2">Our Pricing <br/>We provide flexible plan</h2>
-                        <p>Thousands of Markit Brands have made the swich.</p>
+                        <p>Thousands of WebCloudor Brands have made the swich.</p>
                      </div>
                   </div>
                </div>

@@ -11,8 +11,8 @@ const ContactInfo = () => {
       {
          id: 2,
          icon_img: 'assets/img/icon/contact/mail.png',
-         title: 'support@markit.com',
-         subtitle: 'info@markit.com'
+         title: 'support@webcloudor.com',
+         subtitle: 'info@webcloudor.com'
       },
       {
          id: 3,

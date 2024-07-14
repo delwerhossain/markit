@@ -11,7 +11,7 @@ const CtaArea = () => {
                      <div className="col-xxl-6 offset-xxl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section__title-wrapper text-center mb-45 wow fadeInUp" data-wow-delay=".3s">
                            <h2 className="section__title text-white">Join The Community</h2>
-                           <p className="text-white opacity-7">Thousands of Markit Brands have made the swich.Text marketing with the customer in mind!</p>
+                           <p className="text-white opacity-7">Thousands of WebCloudor Brands have made the swich.Text marketing with the customer in mind!</p>
                         </div>
                      </div>
                   </div>

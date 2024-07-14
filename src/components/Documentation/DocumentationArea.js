@@ -82,7 +82,7 @@ const DocumentationArea = () => {
                            <img src="assets/img/support/profile/s-p-3.jpg" alt="" />
                            <img src="assets/img/support/profile/s-p-4.jpg" alt="" />
                         </a>
-                        <p>Contact us directly at <a href="mailto:support@markit.com">support@markit.com</a> </p>
+                        <p>Contact us directly at <a href="mailto:support@webcloudor.com">support@webcloudor.com</a> </p>
                      </div>
                   </div>
                </div>

@@ -73,7 +73,7 @@ const LoginArea = () => {
                               </div>
                               <button type='submit' className="m-btn m-btn-4 w-100"> <span></span> Sign In</button>
                               <div className="sign__new text-center mt-20">
-                                 <p>New to Markit? <Link href="/sign-up"><a >Sign Up</a></Link></p>
+                                 <p>New to WebCloudor? <Link href="/sign-up"><a >Sign Up</a></Link></p>
                               </div>
                            </form>
                         </div>

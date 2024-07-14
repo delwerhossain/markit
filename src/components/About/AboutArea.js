@@ -8,7 +8,7 @@ const AboutArea = () => {
                <div className="row">
                   <div className="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1">
                      <div className="about__wrapper">
-                        <span className="about__sub-title">About Markit</span>
+                        <span className="about__sub-title">About WebCloudor</span>
                         <h3 className="about__title">We are enabling <br/> Everyone to create for the website.</h3>
                         <div className="about__thumb w-img wow fadeInUp" data-wow-delay=".3s">
                            <img src="assets/img/about/about-1.jpg" alt=""/>

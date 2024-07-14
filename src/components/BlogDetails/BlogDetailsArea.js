@@ -87,7 +87,7 @@ const BlogDetailsArea = () => {
                               <Link href="/about"><a >lemon squeezy wellies cheesed</a></Link></span> off quaint pardon you old wind up bevvy, bugger all mate Oxford bonnet fanny around mush smashing. Cracking goal pukka what a load of rubbish a load</p>
                         </div>
                         <div className="postbox__details mb-45">
-                           <h4>Introducing the new Markit</h4>
+                           <h4>Introducing the new WebCloudor</h4>
 
                            <div className="postbox__list">
                               <ol>
