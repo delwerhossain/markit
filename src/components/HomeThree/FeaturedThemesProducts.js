@@ -61,7 +61,7 @@ const FeaturedThemesProducts = () => {
                               <div className="product__content">
                                  <h3 className="product__title product__title2">
                                     <Link href="/product-details">
-                                       <a onClick={() => handleProductDetails(product.id)}>{product.title}</a>
+                                       <a onClick={() => handleProductDetails(product.id)}>{product?.title}</a>
                                     </Link>
                                  </h3>
                                  <p className="product__author">by <a href="#">WebCloudor</a> in <a href="#">Templates</a></p>

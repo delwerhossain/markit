@@ -57,7 +57,7 @@ const WishListArea = () => {
                                              </td>
                                              <td className="product-name" onClick={() => dispatch(specificItem(product.id))}>
                                                 <Link href="/product-details">
-                                                   <a >{product.title}</a>
+                                                   <a >{product?.title}</a>
                                                 </Link>
                                              </td>
 

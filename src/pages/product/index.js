@@ -10,6 +10,7 @@ import Subscribe from '../../components/Home/Subscribe';
 import ProductTrending from '../../components/Product/ProductTrending';
 import SEO from '../../components/seo';
 import { addToProduct, specificItem } from '../../redux/features/productSlice';
+import Image from 'next/image';
 
 const Product = () => {
   // all products
@@ -160,9 +161,9 @@ const Product = () => {
                       <div className="product__item white-bg mb-30 wow fadeInUp" data-wow-delay=".3s">
                         <div className="product__thumb">
                           <div className="product__thumb-inner fix w-img">
-                          <Link href={`/product-details/${item.id}`}>
+                          <Link href={`/product-details/${encodeURIComponent(item.title.replace(/\s+/g, '-'))}`}>
                               <a >
-                                <img src={item?.img_big} alt="" />
+                                <Image width={500} height={400} src={item?.img_big} alt="" />
                               </a>
                             </Link>
                           </div>
@@ -187,7 +188,7 @@ const Product = () => {
                             </div>
                           </div>
                           <h3 onClick={() => handleProducDetails(item.id)} className="product__title">
-                          <Link href={`/product-details/${item.id}`}>
+                          <Link href={`/product-details/${encodeURIComponent(item.title.replace(/\s+/g, '-'))}`}>
                               <a >{item?.title}...</a>
                             </Link>
                           </h3>
