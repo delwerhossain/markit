@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const SingleAccording = ({number,condition = false,showClass,title}) => {
     return (

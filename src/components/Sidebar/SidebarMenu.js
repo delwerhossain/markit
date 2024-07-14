@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import React from 'react';
+
 import { Offcanvas } from 'react-bootstrap';
 import Collapsible from 'react-collapsible';
 import { useSelector } from 'react-redux';
 import useAuth from '../../hooks/useAuth';
+import Image from 'next/image';
 
 
 const SidebarMenu = ({ show, handleClose }) => {
@@ -16,9 +17,9 @@ const SidebarMenu = ({ show, handleClose }) => {
             <Offcanvas show={show} onHide={handleClose} placement='end' className='side__bar'>
                <Offcanvas.Header closeButton>
                   <div className="logo">
-                     <Link href="/home">
+                     <Link href="/">
                         <a>
-                           <img src="assets/img/logo/logo-white.png" alt="logo" />
+                           <Image width={200} height={30} src="/assets/img/logo/logo-white.png" alt="webcloudor logo" />
                         </a>
                      </Link>
                   </div>
@@ -34,32 +35,43 @@ const SidebarMenu = ({ show, handleClose }) => {
                            <div className="mobile-menu">
                               <nav id="mobile-menu">
                                  <ul>
-                                    <Collapsible trigger={<Link href="/home">Home</Link>} triggerTagName="div"
+                                    {/* <Collapsible trigger={<Link href="/home">Home</Link>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
                                           <li><Link href="/home"><a >Home Wordpress</a></Link></li>
                                           <li><Link href="/homeTwo"><a >Home Plugins</a></Link></li>
                                           <li><Link href="/home-three"><a >Home Market</a></Link></li>
                                        </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
-                                    <Collapsible trigger={<Link href="/product">Themes</Link>} triggerTagName="div"
+                                    {/* <Collapsible trigger={<Link href="/product">Themes</Link>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
                                           <li><Link href="/product"><a>Product</a></Link></li>
                                           <li><Link href="/product-details"><a>Product Details</a></Link></li>
                                        </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
                                     <div className='single_link iconAdd '>
-                                       <li><Link href="/product"><a>HTML</a></Link></li>
+                                       <li><Link href="/"><a>Home</a></Link></li>
                                     </div>
-
-                                    <div className='single_link iconAdd'>
+                                    <div className='single_link iconAdd '>
+                                       <li><Link href="/product"><a>Shop</a></Link></li>
+                                    </div>
+                                    <div className='single_link iconAdd '>
+                                       <li><Link href="/blog"><a>Blog</a></Link></li>
+                                    </div>
+                                    <div className='single_link iconAdd '>
+                                       <li><Link href="/contact"><a>Contact</a></Link></li>
+                                    </div>
+                                    <div className='single_link iconAdd '>
                                        <li><Link href="/support"><a>Support</a></Link></li>
                                     </div>
+                                
 
-                                    <Collapsible trigger={<Link href="/product">Pages</Link>} triggerTagName="div"
+                                  
+
+                                    {/* <Collapsible trigger={<Link href="/product">Pages</Link>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
                                           <li><Link href="/about"><a >About</a></Link></li>
@@ -79,7 +91,7 @@ const SidebarMenu = ({ show, handleClose }) => {
                                           <li><Link href="/blog"><a >Blog</a></Link></li>
                                           <li><Link href="/blog-details"><a >Blog Details</a></Link></li>
                                        </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
                                     <div className='single_link iconAdd border-0'>
                                        <li><Link href="/contact"><a >Contact</a></Link></li>

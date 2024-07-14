@@ -26,7 +26,7 @@ const HomeThreeHeader = () => {
                         <div className="logo">
                            <Link href="/">
                               <a >
-                                 <img src="assets/img/logo/logo-white.png" alt="logo" />
+                                 <img src="assets/img/logo/logo-white.png" alt="webcloudor logo" />
                               </a>
                            </Link>
                         </div>

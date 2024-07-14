@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Subscribe from '../../components/Home/Subscribe';
 import FeaturedItem from '../../components/HomeThree/FeaturedItem';
 import FeaturedThemesProducts from '../../components/HomeThree/FeaturedThemesProducts';

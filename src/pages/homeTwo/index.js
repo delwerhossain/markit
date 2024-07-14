@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Subscribe from '../../components/Home/Subscribe';
 import FeaturedArea from '../../components/homeTwo/FeaturedArea';
 import Footer from '../../components/homeTwo/Footer';

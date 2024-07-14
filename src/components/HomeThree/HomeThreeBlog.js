@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { specificBlog } from '../../redux/features/blogSlice';
 

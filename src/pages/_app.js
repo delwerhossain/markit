@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Provider } from 'react-redux';
 import 'react-responsive-modal/styles.css';
 import './index.scss';

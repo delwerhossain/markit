@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BlogArea from '../../components/Blog/BlogArea';
 import BlogBreadCrumb from '../../components/Blog/BlogBreadCrumb';
 import BgShape from '../../components/common/BgShape';

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+
 import { useDispatch } from 'react-redux';
 import {removeProduct, specificItem } from '../../redux/features/productSlice';
 

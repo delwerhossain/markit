@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AboutArea from '../../components/About/AboutArea';
 import BgShape from '../../components/common/BgShape';
 import BannerArea from '../../components/Home/BannerArea';

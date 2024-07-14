@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BgShape from '../../components/common/BgShape';
 import Community from '../../components/Documentation/Community';
 import Cta from '../../components/Documentation/Cta';

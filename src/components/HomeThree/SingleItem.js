@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const SingleItem = ({img,img_format = 'png'}) => {
    return (

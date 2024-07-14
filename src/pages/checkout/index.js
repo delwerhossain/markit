@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CheckoutArea from '../../components/Checkout/CheckoutArea';
 import CouponArea from '../../components/Checkout/CouponArea';
 import BgShape from '../../components/common/BgShape';

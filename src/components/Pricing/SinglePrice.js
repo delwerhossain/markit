@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+
 
 const SinglePrice = ({ title, price, activeClass = '' }) => {
     return (

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BgShape from '../../components/common/BgShape';
 import Breadcrumb from '../../components/common/Breadcrumb';
 import Footer from '../../components/Home/Footer';

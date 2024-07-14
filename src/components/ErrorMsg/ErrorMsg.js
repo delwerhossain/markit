@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+
 import { Container } from 'react-bootstrap';
 
 const ErrorMsg = ({ errTitle = "Your cart is currently empty." }) => {
