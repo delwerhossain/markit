@@ -83,7 +83,11 @@ const FeaturedThemesProducts = () => {
                     </div>
                     <div className="product__content">
                       <h3 className="product__title product__title2">
-                        <Link href="/product-details">
+                        <Link
+                          href={`/product-details/${encodeURIComponent(
+                            product?.title.replace(/\s+/g, "-")
+                          )}`}
+                        >
                           <a onClick={() => handleProductDetails(product.id)}>
                             {product?.title}
                           </a>

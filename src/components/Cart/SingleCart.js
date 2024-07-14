@@ -10,14 +10,22 @@ const SingleCart = ({ cart,handleDecreaseCart,handleIncreaseCart,handleRemovePro
    return (
       <tr>
          <td className="product-thumbnail">
-            <Link href="/product-details">
+         <Link
+                href={`/product-details/${encodeURIComponent(
+                  cart.title.replace(/\s+/g, "-")
+                )}`}
+              >
                <a onClick={dispatch(specificItem(cart.id))}>
                   <img src={"/" + cart?.img} alt="" />
                </a>
             </Link>
          </td>
          <td className="product-name">
-            <Link href="/product-details"><a onClick={dispatch(specificItem(cart.id))}>{cart?.title}</a></Link>
+            <Link
+                href={`/product-details/${encodeURIComponent(
+                  cart.title.replace(/\s+/g, "-")
+                )}`}
+              ><a onClick={dispatch(specificItem(cart.id))}>{cart?.title}</a></Link>
          </td>
          <td className="product-price"><span className="amount">${cart?.price}</span></td>
          <td className="product-quantity">
