@@ -42,8 +42,8 @@ const Product = () => {
   const handleClick = (product) => {
     dispatch(addToProduct(product))
   }
-  // handleProducDetails
-  const handleProducDetails = (id) => {
+  // handleProductDetails
+  const handleProductDetails = (id) => {
     dispatch(specificItem(id))
   }
   // handleCategory
@@ -187,7 +187,7 @@ const Product = () => {
                               <span>৳{item?.price}</span>
                             </div>
                           </div>
-                          <h3 onClick={() => handleProducDetails(item.id)} className="product__title">
+                          <h3 onClick={() => handleProductDetails(item.id)} className="product__title">
                           <Link href={`/product-details/${encodeURIComponent(item.title.replace(/\s+/g, '-'))}`}>
                               <a >{item?.title}...</a>
                             </Link>
