@@ -16,11 +16,11 @@ export default function Home() {
 
   return (
     <>
-      <SEO pageTitle={'Home Default'} />
+      <SEO pageTitle={'Home'} />
       <Header />
       <HeroArea />
-      <CategoryArea />
       <TrendingLandmark />
+      <CategoryArea />
       <Subscribe />
       <Products />
       <Cta />

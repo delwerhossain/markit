@@ -31,7 +31,7 @@ const CategoryArea = () => {
                <div className="row">
                   <div className="col-xxl-12">
                      <div className="section__title-wrapper text-center mb-60">
-                        <h2 className="section__title">Browse <br /> Popular Categories</h2>
+                        <h2 className="section__title">Browse <br /> Your Categories</h2>
                         <p>Find over 7000 website templates and themes.</p>
                      </div>
                   </div>

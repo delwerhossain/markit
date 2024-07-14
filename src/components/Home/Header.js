@@ -42,7 +42,7 @@ const Header = () => {
                 <div className="logo">
                   <Link href="/">
                     <a>
-                      <Image width={200} height={30} src="/assets/img/logo/logo.png" alt="webcloudor logo" />
+                      <Image className='' width={200} height={30} src="/assets/img/logo/logo.png" alt="webcloudor logo" />
                     </a>
                   </Link>
                 </div>

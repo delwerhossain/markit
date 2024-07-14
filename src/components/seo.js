@@ -3,7 +3,7 @@ import Head from "next/head";
 const SEO = ({ pageTitle, description, keywords, font }) => (
   <>
     <Head>
-      <title>{pageTitle ? `${pageTitle} || WebCloudor - Web Agency Your Digital Needs` : 'WebCloudor - Web Agency Your Digital Needs'}</title>
+      <title>{pageTitle ? `${pageTitle} | WebCloudor - Web Agency Your Digital Needs` : 'WebCloudor - Web Agency Your Digital Needs'}</title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="description" content={description || "WebCloudor creates personal websites for individuals to enhance personal branding and assist in job seeking."} />
       <meta name="robots" content="index, follow" />
